@@ -55,7 +55,7 @@ input:focus {
 
 /* ================= NAVBAR ================= */
 .navbar {
-    background: var(--black);
+    background: var(--primary-color);
     color: var(--white);
     padding: 16px 0;
     position: sticky;
@@ -85,7 +85,7 @@ input:focus {
 }
 
 .nav-links a:hover {
-    color: var(--primary-color);
+    color: var(--black);
 }
 
 .menu-toggle {
@@ -141,9 +141,16 @@ input:focus {
 
 /* ================= HERO ================= */
 .hero {
-    background: var(--black);
+    position: relative;
+    min-height: 100vh;
     color: var(--white);
     padding: 80px 0;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    transition: background-image 1.2s ease-in-out;
 }
 
 .hero-content {
@@ -597,4 +604,48 @@ input:focus {
         bottom: 16px;
         right: 16px;
     }
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 45px;        /* adjust if needed */
+    width: auto;
+    object-fit: contain;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .logo-img {
+        height: 38px;
+    }
+}
+.logo-img {
+    height: 45px;
+    width: auto;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Hover animation */
+.logo-img:hover {
+    transform: scale(1.08);
+    filter: drop-shadow(0 0 8px rgba(255, 0, 0, 0.6));
+}
+
+/* ================= HERO BACKGROUND OVERLAY ================= */
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75); /* darkness control */
+    z-index: 1;
+}
+
+.hero .container,
+.hero-content {
+    position: relative;
+    z-index: 2;
 }
