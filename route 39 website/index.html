@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROUTE 39</title>
+
+    <!-- SEO -->
+    <meta name="description"
+        content="Route 39 – Eco-friendly electric auto rides. Fast, affordable, and sustainable transport.">
+    <meta name="author" content="Route 39">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="icon" type="image/png" href="image/logo.png">
+
+</head>
+<a href="https://wa.me/919626593939?text=Hi%20Route%2039%2C%20I%20want%20to%20book%20a%20ride" class="whatsapp-float"
+    target="_blank" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Font Awesome (if not already added) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+<body>
+
+    <!-- NAVBAR (ORIGINAL + MENU TOGGLE ADDED) -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+
+                <div class="logo">
+                    <a href="/">
+                        <img src="image/logo.png" alt="Route 39 Logo" class="logo-img">
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Toggle (ADDED – does not remove anything) -->
+                <button class="menu-toggle" aria-label="Toggle Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="nav-links">
+                    <a href="#features">Features</a>
+                    <a href="#how-it-works">How It Works</a>
+                    <a href="#drivers-customers">For Investors & Customers</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO (UNCHANGED) -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+
+                <div class="hero-text">
+                    <h1>Your Electric Journey, <span class="accent">Starts Here</span></h1>
+                    <p>
+                        Experience premium eco-friendly transportation with Route 39.
+                        Fast, affordable, and sustainable rides at your fingertips.
+                    </p>
+
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-icon">0</div>
+                            <span>Carbon<br />Emissions</span>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-icon">24/7</div>
+                            <span>Available<br />Service</span>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-icon">5★</div>
+                            <span>Rated<br />Drivers</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="booking-card">
+                    <h3>Book Your Ride</h3>
+
+                    <form id="bookingForm">
+                        <div class="form-group">
+                            <label>Pickup Location</label>
+                            <div class="input-wrapper">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <input type="text" id="pickup" placeholder="Enter pickup location" required />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Drop-off Location</label>
+                            <div class="input-wrapper">
+                                <i class="fas fa-location-dot"></i>
+                                <input type="text" id="dropoff" placeholder="Enter drop-off location" required />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>When</label>
+                            <div class="input-wrapper">
+                                <i class="fas fa-calendar"></i>
+                                <input type="datetime-local" id="date" required />
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn-primary full-width">
+                            Ride Route39
+                        </button>
+                    </form>
+
+                    <div class="fare-info">
+                        <span>Estimated fare</span>
+                        <span class="accent-text">Calculate on next step</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES (UNCHANGED – ALL 6 CARDS) -->
+    <section id="features" class="features">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Why Choose <span class="accent">Route39</span></h2>
+                <p>
+                    The perfect blend of sustainability, affordability,
+                    and convenience for your daily commute
+                </p>
+            </div>
+
+            <div class="features-grid">
+
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Electric & Fast</h3>
+                    <p>Quick rides powered by clean electricity.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-dollar-sign"></i></div>
+                    <h3>Affordable Rates</h3>
+                    <p>Transparent pricing with no hidden charges.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-shield"></i></div>
+                    <h3>Safe & Secure</h3>
+                    <p>Verified drivers, live tracking, and support.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-leaf"></i></div>
+                    <h3>Eco-Friendly</h3>
+                    <p>Zero emissions, 100% electric rides.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-clock"></i></div>
+                    <h3>24/7 Available</h3>
+                    <p>Round-the-clock service whenever you need.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-star"></i></div>
+                    <h3>Top-Rated Drivers</h3>
+                    <p>Professional, courteous, and experienced drivers.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW IT WORKS (UNCHANGED) -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+
+            <div class="section-header light">
+                <h2>How It <span class="accent">Works</span></h2>
+                <p>Getting your eco-friendly ride is as simple as 1-2-3-4</p>
+            </div>
+
+            <div class="steps-grid">
+
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Book Your Ride</h3>
+                    <p>Enter your pickup and drop-off locations.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-icon"><i class="fas fa-map-pin"></i></div>
+                    <h3>Get Matched</h3>
+                    <p>Connect with the nearest EV auto driver.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-icon"><i class="fas fa-car"></i></div>
+                    <h3>Enjoy The Ride</h3>
+                    <p>Track your ride in real time.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-icon"><i class="fas fa-check-circle"></i></div>
+                    <h3>Rate & Pay</h3>
+                    <p>Secure digital payment and feedback.</p>
+                </div>
+
+            </div>
+
+            <div class="cta-center">
+                <button class="btn-primary btn-large">
+                    Start Your Journey Today
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ✅ NEW SECTION (ONLY ADDITION) -->
+    <section id="drivers-customers" class="audience-section">
+        <div class="container">
+
+            <div class="audience-grid">
+
+                <div class="audience-card dark">
+                    <h2>For <span>Investors</span></h2>
+                    <ul>
+                        <li>Higher daily earnings</li>
+                        <li>Low running cost with EV</li>
+                        <li>Flexible working hours</li>
+                        <li>Be part of a premium brand</li>
+                    </ul>
+                    <button class="btn-outline">Join as Driver</button>
+                </div>
+
+                <div class="audience-card light">
+                    <h2>For <span>Customers</span></h2>
+                    <ul>
+                        <li>Safe & clean rides</li>
+                        <li>Affordable pricing</li>
+                        <li>Eco-friendly travel</li>
+                        <li>Professional drivers</li>
+                    </ul>
+                    <button class="btn-primary">Book a Ride</button>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- DRIVER REGISTRATION FORM -->
+    <section id="driver-register" class="driver-register">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>Driver <span class="accent">Registration</span></h2>
+                <p>Join Route 39 and start earning with electric mobility</p>
+            </div>
+
+            <div class="driver-form-card">
+                <form id="driverForm">
+
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" id="driverName" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Phone Number</label>
+                        <input type="tel" id="driverPhone" placeholder="Enter mobile number" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>City</label>
+                        <input type="text" id="driverCity" placeholder="Enter your city" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Vehicle Type</label>
+                        <select id="vehicleType" required>
+                            <option value="">Select vehicle</option>
+                            <option>Electric Auto</option>
+                            <option>Electric Bike</option>
+                            <option>Electric Cab</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Driving License Number</label>
+                        <input type="text" id="licenseNumber" placeholder="Enter license number" required>
+                    </div>
+
+                    <button type="submit" class="btn-primary full-width">
+                        Register as Driver
+                    </button>
+
+                </form>
+            </div>
+
+        </div>
+    </section>
+    <!-- FOOTER (100% UNCHANGED) -->
+    <footer id="contact" class="footer">
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span class="logo-text">Route<span class="brand-accent">39</span></span>
+                    </div>
+                    <p>
+                        Revolutionizing urban transportation with eco-friendly electric autos.
+                        Premium rides, sustainable future.
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/1DcudMYd2L/" class="social-icon"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/route39.in?igsh=N3dleWUxcHl2dDZp" class="social-icon"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Fleet</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Safety Guidelines</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>
+                                83b, Velayankadu south, PVC Nagar,
+                                Tiruppur, Tamil Nadu 641603
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+91 9626499399</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>support@route39.in</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2024 Route 39. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Cookie Policy</a>
+                    <a href="#">Accessibility</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
