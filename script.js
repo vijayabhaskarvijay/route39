@@ -106,3 +106,4 @@ changeHeroBackground();
 
 // Change every 5 seconds
 setInterval(changeHeroBackground, 5000);
+
