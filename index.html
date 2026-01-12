@@ -11,6 +11,13 @@
         content="Route 39 – Eco-friendly electric auto rides. Fast, affordable, and sustainable transport.">
     <meta name="author" content="Route 39">
 
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;500;700;800&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="icon" type="image/png" href="image/logo.png">
@@ -21,12 +28,9 @@
     <i class="fab fa-whatsapp"></i>
 </a>
 
-<!-- Font Awesome (if not already added) -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-
 <body>
 
-    <!-- NAVBAR (ORIGINAL + MENU TOGGLE ADDED) -->
+    <!-- NAVBAR -->
     <nav class="navbar">
         <div class="container">
             <div class="nav-content">
@@ -37,7 +41,6 @@
                     </a>
                 </div>
 
-                <!-- Mobile Menu Toggle (ADDED – does not remove anything) -->
                 <button class="menu-toggle" aria-label="Toggle Menu">
                     <i class="fas fa-bars"></i>
                 </button>
@@ -53,13 +56,13 @@
         </div>
     </nav>
 
-    <!-- HERO (UNCHANGED) -->
+    <!-- HERO -->
     <section class="hero" id="hero">
         <div class="container">
             <div class="hero-content">
 
-                <div class="hero-text">
-                    <h1>Your Electric Journey, <span class="accent">Starts Here</span></h1>
+                <div class="hero-text" data-animate>
+                    <h1>Your Electric Journey <br><span class="accent-gradient">Starts Here</span></h1>
                     <p>
                         Experience premium eco-friendly transportation with Route 39.
                         Fast, affordable, and sustainable rides at your fingertips.
@@ -81,7 +84,7 @@
                     </div>
                 </div>
 
-                <div class="booking-card">
+                <div class="booking-card glass-card" data-animate="slide-left">
                     <h3>Book Your Ride</h3>
 
                     <form id="bookingForm">
@@ -109,7 +112,7 @@
                             </div>
                         </div>
 
-                        <button type="submit" class="btn-primary full-width">
+                        <button type="submit" class="btn-primary full-width glow-effect">
                             Ride Route39
                         </button>
                     </form>
@@ -124,11 +127,11 @@
         </div>
     </section>
 
-    <!-- FEATURES (UNCHANGED – ALL 6 CARDS) -->
+    <!-- FEATURES -->
     <section id="features" class="features">
         <div class="container">
 
-            <div class="section-header">
+            <div class="section-header" data-animate>
                 <h2>Why Choose <span class="accent">Route39</span></h2>
                 <p>
                     The perfect blend of sustainability, affordability,
@@ -138,38 +141,50 @@
 
             <div class="features-grid">
 
-                <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+                <div class="feature-card" data-animate="fade-up">
+                    <div class="icon-wrapper">
+                        <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+                    </div>
                     <h3>Electric & Fast</h3>
                     <p>Quick rides powered by clean electricity.</p>
                 </div>
 
-                <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-indian-rupee-sign"></i></div>
+                <div class="feature-card" data-animate="fade-up" style="transition-delay: 0.1s">
+                    <div class="icon-wrapper">
+                        <div class="feature-icon"><i class="fas fa-indian-rupee-sign"></i></div>
+                    </div>
                     <h3>Affordable Rates</h3>
                     <p>Transparent pricing with no hidden charges.</p>
                 </div>
 
-                <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-shield"></i></div>
+                <div class="feature-card" data-animate="fade-up" style="transition-delay: 0.2s">
+                    <div class="icon-wrapper">
+                        <div class="feature-icon"><i class="fas fa-shield"></i></div>
+                    </div>
                     <h3>Safe & Secure</h3>
                     <p>Verified drivers, live tracking, and support.</p>
                 </div>
 
-                <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-leaf"></i></div>
+                <div class="feature-card" data-animate="fade-up" style="transition-delay: 0.3s">
+                    <div class="icon-wrapper">
+                        <div class="feature-icon"><i class="fas fa-leaf"></i></div>
+                    </div>
                     <h3>Eco-Friendly</h3>
                     <p>Zero emissions, 100% electric rides.</p>
                 </div>
 
-                <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-clock"></i></div>
+                <div class="feature-card" data-animate="fade-up" style="transition-delay: 0.4s">
+                    <div class="icon-wrapper">
+                        <div class="feature-icon"><i class="fas fa-clock"></i></div>
+                    </div>
                     <h3>24/7 Available</h3>
                     <p>Round-the-clock service whenever you need.</p>
                 </div>
 
-                <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-star"></i></div>
+                <div class="feature-card" data-animate="fade-up" style="transition-delay: 0.5s">
+                    <div class="icon-wrapper">
+                        <div class="feature-icon"><i class="fas fa-star"></i></div>
+                    </div>
                     <h3>Top-Rated Drivers</h3>
                     <p>Professional, courteous, and experienced drivers.</p>
                 </div>
@@ -178,49 +193,49 @@
         </div>
     </section>
 
-    <!-- HOW IT WORKS (UNCHANGED) -->
+    <!-- HOW IT WORKS -->
     <section id="how-it-works" class="how-it-works">
         <div class="container">
 
-            <div class="section-header light">
+            <div class="section-header light" data-animate>
                 <h2>How It <span class="accent">Works</span></h2>
                 <p>Getting your eco-friendly ride is as simple as 1-2-3-4</p>
             </div>
 
             <div class="steps-grid">
 
-                <div class="step">
+                <div class="step" data-animate="slide-right">
                     <div class="step-number">1</div>
-                    <div class="step-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <div class="step-icon glass-icon"><i class="fas fa-mobile-alt"></i></div>
                     <h3>Book Your Ride</h3>
                     <p>Enter your pickup and drop-off locations.</p>
                 </div>
 
-                <div class="step">
+                <div class="step" data-animate="slide-right" style="transition-delay: 0.2s">
                     <div class="step-number">2</div>
-                    <div class="step-icon"><i class="fas fa-map-pin"></i></div>
+                    <div class="step-icon glass-icon"><i class="fas fa-map-pin"></i></div>
                     <h3>Get Matched</h3>
                     <p>Connect with the nearest EV auto driver.</p>
                 </div>
 
-                <div class="step">
+                <div class="step" data-animate="slide-right" style="transition-delay: 0.4s">
                     <div class="step-number">3</div>
-                    <div class="step-icon"><i class="fas fa-car"></i></div>
+                    <div class="step-icon glass-icon"><i class="fas fa-car"></i></div>
                     <h3>Enjoy The Ride</h3>
                     <p>Track your ride in real time.</p>
                 </div>
 
-                <div class="step">
+                <div class="step" data-animate="slide-right" style="transition-delay: 0.6s">
                     <div class="step-number">4</div>
-                    <div class="step-icon"><i class="fas fa-check-circle"></i></div>
+                    <div class="step-icon glass-icon"><i class="fas fa-check-circle"></i></div>
                     <h3>Rate & Pay</h3>
                     <p>Secure digital payment and feedback.</p>
                 </div>
 
             </div>
 
-            <div class="cta-center">
-                <button class="btn-primary btn-large">
+            <div class="cta-center" data-animate="fade-up">
+                <button class="btn-primary btn-large glow-effect">
                     Start Your Journey Today
                 </button>
             </div>
@@ -228,84 +243,117 @@
         </div>
     </section>
 
-    <!-- ✅ NEW SECTION (ONLY ADDITION) -->
+    <!-- AUDIENCE SECTION -->
     <section id="drivers-customers" class="audience-section">
         <div class="container">
 
             <div class="audience-grid">
 
-                <div class="audience-card dark">
-                    <h2>For <span>Investors</span></h2>
+                <div class="audience-card dark glass-card" data-animate="slide-right">
+                    <h2>For <span class="accent-gradient">Investors</span></h2>
                     <ul>
-                        <li>Higher daily earnings</li>
-                        <li>Low running cost with EV</li>
-                        <li>Passive income opportunity</li>
-                        <li>Be part of a premium brand</li>
+                        <li><i class="fas fa-check"></i> Higher daily earnings</li>
+                        <li><i class="fas fa-check"></i> Low running cost with EV</li>
+                        <li><i class="fas fa-check"></i> Passive income opportunity</li>
+                        <li><i class="fas fa-check"></i> Be part of a premium brand</li>
                     </ul>
-                    <button class="btn-outline">Join as Investors</button>
+                    <button class="btn-outline glow-effect">Join as Investors</button>
                 </div>
 
-                <div class="audience-card light">
-                    <h2>For <span>Customers</span></h2>
+                <div class="audience-card light glass-card" data-animate="slide-left">
+                    <h2>For <span class="accent-gradient">Customers</span></h2>
                     <ul>
-                        <li>Safe & clean rides</li>
-                        <li>Affordable pricing</li>
-                        <li>Eco-friendly travel</li>
-                        <li>Professional drivers</li>
+                        <li><i class="fas fa-check"></i> Safe & clean rides</li>
+                        <li><i class="fas fa-check"></i> Affordable pricing</li>
+                        <li><i class="fas fa-check"></i> Eco-friendly travel</li>
+                        <li><i class="fas fa-check"></i> Professional drivers</li>
                     </ul>
-                    <button class="btn-primary">Book a Ride</button>
+                    <button class="btn-primary glow-effect">Book a Ride</button>
                 </div>
 
             </div>
 
         </div>
     </section>
-    <!-- DRIVER REGISTRATION FORM -->
-    <section id="driver-register" class="driver-register">
+
+    <!-- DRIVER REGISTRATION (Redesigned) -->
+    <section id="driver-form" class="driver-register">
         <div class="container">
 
-            <div class="section-header">
-                <h2>Driver <span class="accent">Registration</span></h2>
-                <p>Join Route 39 and start earning with electric mobility</p>
-            </div>
+            <div class="driver-grid">
 
-            <div class="driver-form-card">
-                <form id="driverForm">
+                <!-- Left Column: Content -->
+                <div class="driver-content" data-animate="fade-right">
+                    <h2>Drive with <span class="accent-gradient">Route 39</span></h2>
+                    <p class="lead">Be your own boss. Earn more with zero cancellations and daily payouts.</p>
 
-                    <div class="form-group">
-                        <label>Full Name</label>
-                        <input type="text" id="driverName" placeholder="Enter your full name" required>
+                    <ul class="driver-benefits">
+                        <li>
+                            <div class="benefit-icon"><i class="fas fa-wallet"></i></div>
+                            <div>
+                                <strong>High Earnings</strong>
+                                <p>Make up to ₹60,000/month</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="benefit-icon"><i class="fas fa-clock"></i></div>
+                            <div>
+                                <strong>Flexible Hours</strong>
+                                <p>Work when you want</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="benefit-icon"><i class="fas fa-bolt"></i></div>
+                            <div>
+                                <strong>Zero Emissions</strong>
+                                <p>Drive the future of mobility</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Right Column: Form -->
+                <div class="driver-form-wrapper" data-animate="fade-left">
+                    <div class="glass-card driver-form-card">
+                        <h3>Register Now</h3>
+                        <p>Fill in the details to get started</p>
+
+                        <form id="driverForm">
+                            <div class="input-group">
+                                <i class="fas fa-user"></i>
+                                <input type="text" id="driverName" placeholder="Full Name" required>
+                            </div>
+
+                            <div class="input-group">
+                                <i class="fas fa-phone"></i>
+                                <input type="tel" id="driverPhone" placeholder="Phone Number" required>
+                            </div>
+
+                            <div class="input-group">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <input type="text" id="driverCity" placeholder="City" required>
+                            </div>
+
+                            <div class="input-group">
+                                <i class="fas fa-car"></i>
+                                <select id="vehicleType" required>
+                                    <option value="" disabled selected>Select Vehicle Type</option>
+                                    <option>Electric Auto</option>
+                                </select>
+                            </div>
+
+                            <div class="input-group">
+                                <i class="fas fa-id-card"></i>
+                                <input type="text" id="licenseNumber" placeholder="Driving License Number" required>
+                            </div>
+
+                            <button type="submit" class="btn-primary full-width glow-effect">
+                                Start Your Journey
+                            </button>
+                        </form>
                     </div>
+                </div>
 
-                    <div class="form-group">
-                        <label>Phone Number</label>
-                        <input type="tel" id="driverPhone" placeholder="Enter mobile number" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label>City</label>
-                        <input type="text" id="driverCity" placeholder="Enter your city" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Vehicle Type</label>
-                        <select id="vehicleType" required>
-                            <option value="">Select vehicle</option>
-                            <option>Electric Auto</option>
-                        
-                        </select>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Driving License Number</label>
-                        <input type="text" id="licenseNumber" placeholder="Enter license number" required>
-                    </div>
-
-                    <button type="submit" class="btn-primary full-width">
-                        Register as Driver
-                    </button>
-
-                </form>
             </div>
 
         </div>
@@ -336,11 +384,11 @@
                 <div class="footer-col">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Our Fleet</a></li>
-                        <li><a href="#">Pricing</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="index.html#features">Features</a></li>
+                        <li><a href="index.html#pricing">Pricing</a></li>
                         <li><a href="careers.html">Careers</a></li>
-                        <li><a href="#">Blog</a></li>
                     </ul>
                 </div>
 

@@ -1,130 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>FAQs | Route 39</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="faq.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;500;700;800&display=swap"
+        rel="stylesheet">
+
     <link rel="icon" type="image/png" href="image/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
+
 <body>
 
-<section class="faq-section">
-    <div class="container">
-
-        <div class="section-header">
-            <h2>Frequently Asked <span class="accent">Questions</span></h2>
-            <p>Everything you need to know about Route 39</p>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="image/logo.png" alt="Route 39 Logo" class="logo-img">
+                    </a>
+                </div>
+                <button class="menu-toggle" aria-label="Toggle Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="nav-links">
+                    <a href="index.html#features">Features</a>
+                    <a href="index.html#how-it-works">How It Works</a>
+                    <a href="index.html#drivers-customers">For Investors & Customers</a>
+                    <a href="index.html#contact">Contact</a>
+                </div>
+            </div>
         </div>
+    </nav>
 
-        <div class="faq-wrapper">
+    <section class="faq-section">
+        <div class="container">
 
-            <!-- FAQ 1 -->
-            <div class="faq-item">
-                <button class="faq-trigger">
-                    <h3>How is Route39 different?</h3>
-                    <span class="icon">⌄</span>
-                </button>
-                <div class="faq-content">
-                    <p>
-                        Route39 is an entirely electric auto service with zero cancellations, no surge pricing, and premium rides at local fares. We prioritize safety, sustainability, and customer convenience with features like GPS tracking, verified drivers, and emergency support.
-                    </p>
-                </div>
+            <div class="section-header" data-animate>
+                <h2>Frequently Asked <span class="accent">Questions</span></h2>
+                <p>Everything you need to know about Route 39</p>
             </div>
 
-            <!-- FAQ 2 -->
-            <div class="faq-item">
-                <button class="faq-trigger">
-                    <h3>How much can I earn as a Route39 driver?</h3>
-                    <span class="icon">⌄</span>
-                </button>
-                <div class="faq-content">
-                    <p>
-                        Active drivers earn between ₹40,000–60,000 per month depending on hours worked and city location.
-                        Earnings include base fare, distance charges, and surge pricing during peak hours.
-                        All payments are processed weekly with transparent fare breakdowns.
-                    </p>
+            <div class="faq-wrapper">
+
+                <!-- FAQ 1 -->
+                <div class="faq-item" data-animate="fade-up">
+                    <button class="faq-trigger">
+                        <h3>How is Route39 different?</h3>
+                        <span class="icon"><i class="fas fa-chevron-down"></i></span>
+                    </button>
+                    <div class="faq-content">
+                        <p>
+                            Route39 is an entirely electric auto service with zero cancellations, no surge pricing, and
+                            premium rides at local fares. We prioritize safety, sustainability, and customer convenience
+                            with features like GPS tracking, verified drivers, and emergency support.
+                        </p>
+                    </div>
                 </div>
+
+                <!-- FAQ 2 -->
+                <div class="faq-item" data-animate="fade-up" style="transition-delay: 0.1s">
+                    <button class="faq-trigger">
+                        <h3>How much can I earn as a Route39 driver?</h3>
+                        <span class="icon"><i class="fas fa-chevron-down"></i></span>
+                    </button>
+                    <div class="faq-content">
+                        <p>
+                            Active drivers earn between ₹40,000–60,000 per month depending on hours worked and city
+                            location.
+                            Earnings include base fare, distance charges, and surge pricing during peak hours.
+                            All payments are processed weekly with transparent fare breakdowns.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="faq-item" data-animate="fade-up" style="transition-delay: 0.2s">
+                    <button class="faq-trigger">
+                        <h3>How do I book a ride on Route39?</h3>
+                        <span class="icon"><i class="fas fa-chevron-down"></i></span>
+                    </button>
+                    <div class="faq-content">
+                        <p>
+                            Download the Route39 app, create your account, enter your destination, and confirm your
+                            pickup location.
+                            You'll see the fare estimate before booking. Track your driver in real-time and pay securely
+                            through the app.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="faq-item" data-animate="fade-up" style="transition-delay: 0.3s">
+                    <button class="faq-trigger">
+                        <h3>How is Route39 eco-friendly?</h3>
+                        <span class="icon"><i class="fas fa-chevron-down"></i></span>
+                    </button>
+                    <div class="faq-content">
+                        <p>
+                            Our entire fleet is electric, producing zero emissions. Every ride with Route39 contributes
+                            to reducing air pollution and carbon footprint, making transportation sustainable for future
+                            generations.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="faq-item" data-animate="fade-up" style="transition-delay: 0.4s">
+                    <button class="faq-trigger">
+                        <h3>What are the requirements to become a driver?</h3>
+                        <span class="icon"><i class="fas fa-chevron-down"></i></span>
+                    </button>
+                    <div class="faq-content">
+                        <p>
+                            You need a valid driving license (minimum 3 years), clean driving record, Aadhaar card,
+                            and police verification. Free training is provided. No vehicle ownership required.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 6 -->
+                <div class="faq-item" data-animate="fade-up" style="transition-delay: 0.5s">
+                    <button class="faq-trigger">
+                        <h3>Are Route39 rides safe?</h3>
+                        <span class="icon"><i class="fas fa-chevron-down"></i></span>
+                    </button>
+                    <div class="faq-content">
+                        <p>
+                            We offer real-time GPS tracking, safety snapshots with face recognition, verified drivers
+                            with visible IDs, SOS button, hygiene-compliant vehicles, and 24/7 emergency support to
+                            ensure your safety at all times.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 7-->
+                <div class="faq-item" data-animate="fade-up" style="transition-delay: 0.6s">
+                    <button class="faq-trigger">
+                        <h3>Where do you operate?</h3>
+                        <span class="icon"><i class="fas fa-chevron-down"></i></span>
+                    </button>
+                    <div class="faq-content">
+                        <p>
+                            We currently operate in Tiruppur and Coimbatore. We are expanding our services to more
+                            locations soon. Stay tuned!
+                        </p>
+                    </div>
+                </div>
+
+
             </div>
 
-            <!-- FAQ 3 -->
-            <div class="faq-item">
-                <button class="faq-trigger">
-                    <h3>How do I book a ride on Route39?</h3>
-                    <span class="icon">⌄</span>
-                </button>
-                <div class="faq-content">
-                    <p>
-                        Download the Route39 app, create your account, enter your destination, and confirm your pickup location.
-                        You'll see the fare estimate before booking. Track your driver in real-time and pay securely through the app.
-                    </p>
-                </div>
+            <div class="faq-footer">
+                <p>Can't find what you're looking for?</p>
+                <button class="btn-primary glow-effect">Contact Support Team</button>
             </div>
-
-            <!-- FAQ 4 -->
-            <div class="faq-item">
-                <button class="faq-trigger">
-                    <h3>How is Route39 eco-friendly?</h3>
-                    <span class="icon">⌄</span>
-                </button>
-                <div class="faq-content">
-                    <p>
-                        Our entire fleet is electric, producing zero emissions. Every ride with Route39 contributes to reducing air pollution and carbon footprint, making transportation sustainable for future generations.
-                    </p>
-                </div>
-            </div>
-
-            <!-- FAQ 5 -->
-            <div class="faq-item">
-                <button class="faq-trigger">
-                    <h3>What are the requirements to become a driver?</h3>
-                    <span class="icon">⌄</span>
-                </button>
-                <div class="faq-content">
-                    <p>
-                        You need a valid driving license (minimum 3 years), clean driving record, Aadhaar card,
-                        and police verification. Free training is provided. No vehicle ownership required.
-                    </p>
-                </div>
-            </div>
-
-            <!-- FAQ 6 -->
-            <div class="faq-item">
-                <button class="faq-trigger">
-                    <h3>Are Route39 rides safe?</h3>
-                    <span class="icon">⌄</span>
-                </button>
-                <div class="faq-content">
-                    <p>
-                        We offer real-time GPS tracking, safety snapshots with face recognition, verified drivers with visible IDs, SOS button, hygiene-compliant vehicles, and 24/7 emergency support to ensure your safety at all times.
-                    </p>
-                </div>
-            </div>
-             <!-- FAQ 7-->
-            <div class="faq-item">
-                <button class="faq-trigger">
-                    <h3>Where do you operate?</h3>
-                    <span class="icon">⌄</span>
-                </button>
-                <div class="faq-content">
-                    <p>
-                        We currently operate in Tiruppur,Coimbatore. We are expanding our services to more locations soon. Stay tuned!
-                    </p>
-                </div>
-            </div>
-
 
         </div>
+    </section>
 
-        <div class="faq-footer">
-            <p>Can't find what you're looking for?</p>
-            <button class="btn-primary">Contact Support Team</button>
+    <!-- FOOTER -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span class="logo-text">Route<span class="brand-accent">39</span></span>
+                    </div>
+                    <p>
+                        Revolutionizing urban transportation with eco-friendly electric autos.
+                        Premium rides, sustainable future.
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/1DcudMYd2L/" class="social-icon"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/route39.in?igsh=N3dleWUxcHl2dDZp" class="social-icon"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="index.html#features">Features</a></li>
+                        <li><a href="index.html#pricing">Pricing</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="index.html#contact">Help Center</a></li>
+                        <li><a href="#">Safety Guidelines</a></li>
+                        <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="faq.html" class="accent">FAQs</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>83b, Velayankadu south, PVC Nagar, Tiruppur, Tamil Nadu 641603</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+91 9626499399</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>support@route39.in</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2024 Route 39. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Cookie Policy</a>
+                    <a href="#">Accessibility</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
         </div>
+    </footer>
 
-    </div>
-</section>
+    <script src="script.js"></script>
+    <script>
+        // Inline script for FAQ Toggle
+        document.querySelectorAll('.faq-trigger').forEach(trigger => {
+            trigger.addEventListener('click', () => {
+                const item = trigger.parentElement;
+                const content = item.querySelector('.faq-content');
 
-<script src="faq.js"></script>
+                // Toggle Active Class
+                item.classList.toggle('active');
+
+                // Toggle Max Height
+                if (item.classList.contains('active')) {
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                } else {
+                    content.style.maxHeight = null;
+                }
+
+                // Close others
+                document.querySelectorAll('.faq-item').forEach(otherItem => {
+                    if (otherItem !== item && otherItem.classList.contains('active')) {
+                        otherItem.classList.remove('active');
+                        otherItem.querySelector('.faq-content').style.maxHeight = null;
+                    }
+                });
+            });
+        });
+    </script>
 </body>
+
 </html>
