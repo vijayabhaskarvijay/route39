@@ -448,6 +448,82 @@ input:focus {
     width: 100%;
 }
 
+/* ================= HERO ACTIONS ================= */
+.hero-actions {
+    margin-top: 60px;
+    /* Position little bit down */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    opacity: 0;
+    animation: fadeUp 0.8s ease-out 0.5s forwards;
+    /* Animation */
+}
+
+.btn-lime {
+    background: var(--primary-gradient);
+    /* Brand Red */
+    color: var(--white);
+    padding: 18px 36px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.btn-lime:hover {
+    background: var(--white);
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(189, 10, 10, 0.3);
+}
+
+.glow-lime {
+    box-shadow: 0 0 20px rgba(189, 10, 10, 0.4);
+}
+
+.app-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.app-btn {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--black);
+}
+
+.app-btn img {
+    height: 50px;
+    /* Fixed height for consistent size */
+    width: auto;
+    display: block;
+}
+
+.app-btn:hover {
+    transform: translateY(-4px);
+}
+
+.glow-green {
+    box-shadow: 0 0 15px rgba(189, 10, 10, 0.3);
+    /* Brand Red Glow */
+    border: 2px solid rgba(189, 10, 10, 0.5);
+}
+
+@media (max-width: 768px) {
+    .hero-actions {
+        align-items: center;
+    }
+}
+
 /* ================= HERO ================= */
 .hero {
     position: relative;
