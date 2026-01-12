@@ -1127,6 +1127,13 @@ input:focus {
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.social-icon:hover {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(189, 10, 10, 0.4);
+}
+
 /* ================= CAREERS PAGE ================= */
 .careers-hero {
     padding: 120px 0 80px;
