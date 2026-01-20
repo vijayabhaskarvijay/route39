@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Careers | Route 39</title>
+    <meta name="description"
+        content="Join the Route 39 team! We are hiring social media managers, drivers, and operations staff. Build your career with a sustainable mobility leader.">
+    <meta name="author" content="Route 39">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;500;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="image/logo.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="image/logo.png" alt="Route 39 Logo" class="logo-img">
+                    </a>
+                </div>
+                <button class="menu-toggle" aria-label="Toggle Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="nav-links">
+                    <a href="index.html#features">Features</a>
+                    <a href="index.html#how-it-works">How It Works</a>
+                    <a href="index.html#drivers-customers">For Investors & Customers</a>
+                    <a href="index.html#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CAREERS HERO -->
+    <section class="careers-hero">
+        <div class="container" data-animate>
+            <h1>Join Our <span class="accent-gradient">Revolution</span></h1>
+            <p>Help us build a sustainable future with eco-friendly mobility solutions.</p>
+        </div>
+    </section>
+
+    <!-- JOBS SECTION -->
+    <section class="jobs-section">
+        <div class="container">
+            <div class="section-header" data-animate>
+                <h2>Open <span class="accent">Positions</span></h2>
+                <p>Find the role that fits you best</p>
+            </div>
+
+            <div class="jobs-grid">
+                <!-- Auto Driver -->
+                <div class="job-card" data-animate="fade-up">
+                    <div class="job-header">
+                        <h3>Electric Auto Driver</h3>
+                        <span class="job-tag">Full Time</span>
+                    </div>
+                    <p class="job-location"><i class="fas fa-map-marker-alt"></i> Tiruppur</p>
+                    <ul class="job-requirements">
+                        <li><i class="fas fa-check-circle"></i> Valid driving license (3+ years)</li>
+                        <li><i class="fas fa-check-circle"></i> Good navigation skills</li>
+                        <li><i class="fas fa-check-circle"></i> Customer-friendly attitude</li>
+                    </ul>
+                    <button class="apply-btn full-width" onclick="scrollToApply('Electric Auto Driver')">
+                        Apply Now <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Customer Care -->
+                <div class="job-card" data-animate="fade-up" style="transition-delay: 0.1s">
+                    <div class="job-header">
+                        <h3>Customer Support</h3>
+                        <span class="job-tag">Fresher Friendly</span>
+                    </div>
+                    <p class="job-location"><i class="fas fa-map-marker-alt"></i> On-Site</p>
+                    <ul class="job-requirements">
+                        <li><i class="fas fa-check-circle"></i> Handle customer inquiries</li>
+                        <li><i class="fas fa-check-circle"></i> Basic computer knowledge</li>
+                        <li><i class="fas fa-check-circle"></i> Excellent communication</li>
+                    </ul>
+                    <button class="apply-btn full-width" onclick="scrollToApply('Customer Care Executive')">
+                        Apply Now <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Videographer -->
+                <div class="job-card" data-animate="fade-up" style="transition-delay: 0.2s">
+                    <div class="job-header">
+                        <h3>Videographer</h3>
+                        <span class="job-tag">Contract</span>
+                    </div>
+                    <p class="job-location"><i class="fas fa-map-marker-alt"></i> Field Work</p>
+                    <ul class="job-requirements">
+                        <li><i class="fas fa-check-circle"></i> Shoot promotional content</li>
+                        <li><i class="fas fa-check-circle"></i> Creative visual storytelling</li>
+                        <li><i class="fas fa-check-circle"></i> Portfolio required</li>
+                    </ul>
+                    <button class="apply-btn full-width" onclick="scrollToApply('Videographer')">
+                        Apply Now <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Video Editor -->
+                <div class="job-card" data-animate="fade-up" style="transition-delay: 0.3s">
+                    <div class="job-header">
+                        <h3>Video Editor</h3>
+                        <span class="job-tag">Hybrid</span>
+                    </div>
+                    <p class="job-location"><i class="fas fa-map-marker-alt"></i> Tiruppur</p>
+                    <ul class="job-requirements">
+                        <li><i class="fas fa-check-circle"></i> Edit reels & ads</li>
+                        <li><i class="fas fa-check-circle"></i> Proficient in Premiere/DaVinci</li>
+                        <li><i class="fas fa-check-circle"></i> Creative editing style</li>
+                    </ul>
+                    <button class="apply-btn full-width" onclick="scrollToApply('Video Editor')">
+                        Apply Now <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Tally -->
+                <div class="job-card" data-animate="fade-up" style="transition-delay: 0.4s">
+                    <div class="job-header">
+                        <h3>Accounts Executive</h3>
+                        <span class="job-tag">Full Time</span>
+                    </div>
+                    <p class="job-location"><i class="fas fa-map-marker-alt"></i> Office Based</p>
+                    <ul class="job-requirements">
+                        <li><i class="fas fa-check-circle"></i> Tally & Excel proficiency</li>
+                        <li><i class="fas fa-check-circle"></i> Invoice management</li>
+                        <li><i class="fas fa-check-circle"></i> 1+ Year Experience</li>
+                    </ul>
+                    <button class="apply-btn full-width" onclick="scrollToApply('Accounts Executive')">
+                        Apply Now <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Social Media Manager -->
+                <div class="job-card" data-animate="fade-up" style="transition-delay: 0.5s">
+                    <div class="job-header">
+                        <h3>Social Media Manager</h3>
+                        <span class="job-tag">Full Time</span>
+                    </div>
+                    <p class="job-location"><i class="fas fa-map-marker-alt"></i> Tiruppur</p>
+                    <ul class="job-requirements">
+                        <li><i class="fas fa-check-circle"></i> Manage social media handles</li>
+                        <li><i class="fas fa-check-circle"></i> Content strategy & planning</li>
+                        <li><i class="fas fa-check-circle"></i> Experience in Meta Ads</li>
+                    </ul>
+                    <button class="apply-btn full-width" onclick="scrollToApply('Social Media Manager')">
+                        Apply Now <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- APPLICATION FORM -->
+    <section class="apply-section" id="apply">
+        <div class="container">
+            <div class="section-header" data-animate>
+                <h2>Apply <span class="accent">Now</span></h2>
+                <p>Start your journey with us</p>
+            </div>
+
+            <div class="glass-card driver-form-card" style="margin-top: 0;" data-animate="fade-up">
+                <form id="careerForm" class="career-form">
+
+                    <div class="input-group">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="name" placeholder="Full Name" required />
+                    </div>
+
+                    <div class="input-group">
+                        <i class="fas fa-phone"></i>
+                        <input type="tel" id="page_phone" placeholder="Phone Number" required />
+                    </div>
+
+                    <div class="input-group">
+                        <i class="fas fa-briefcase"></i>
+                        <input type="text" id="role" placeholder="Select a job above" readonly required />
+                    </div>
+
+                    <div class="input-group">
+                        <i class="fas fa-pen" style="top: 20px; transform: none;"></i>
+                        <textarea placeholder="Why should we hire you? (Short introduction)" required
+                            style="padding-left: 50px; height: 120px; padding-top: 16px;"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary full-width glow-effect">Submit Application</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span class="logo-text">Route<span class="brand-accent">39</span></span>
+                    </div>
+                    <p>
+                        Revolutionizing urban transportation with eco-friendly electric autos.
+                        Premium rides, sustainable future.
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/1DcudMYd2L/" class="social-icon"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/route39.in?igsh=N3dleWUxcHl2dDZp" class="social-icon"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="index.html#features">Features</a></li>
+                        <li><a href="index.html#pricing">Pricing</a></li>
+                        <li><a href="careers.html" class="accent">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="index.html#contact">Help Center</a></li>
+                        <li><a href="#">Safety Guidelines</a></li>
+                        <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="faq.html">FAQs</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>83b, Velayankadu south, PVC Nagar, Tiruppur, Tamil Nadu 641603</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+91 8393943939</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>support@route39.in</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 Route 39. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Cookie Policy</a>
+                    <a href="#">Accessibility</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Inline script for page specific logic to keep it simple
+        function scrollToApply(roleName) {
+            document.getElementById('role').value = roleName;
+            document.getElementById('apply').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        document.getElementById('careerForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const btn = e.target.querySelector('button');
+            const originalText = btn.innerText;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+            btn.disabled = true;
+
+            setTimeout(() => {
+                alert('Application Submitted! We will contact you soon.');
+                e.target.reset();
+                btn.innerText = originalText;
+                btn.disabled = false;
+            }, 1500);
+        });
+    </script>
+</body>
+
+</html>
