@@ -78,7 +78,7 @@ if (whatsappBtn) {
     const message = encodeURIComponent(
         'Hi Route 39, I would like to book a ride. Please assist me.'
     );
-    const phoneNumber = '9626593939'; // change if needed
+    const phoneNumber = '8393943939'; // change if needed
 
     whatsappBtn.href = `https://wa.me/${phoneNumber}?text=${message}`;
 }
