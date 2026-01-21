@@ -128,9 +128,9 @@ input:focus {
 
 /* ================= NAVBAR ================= */
 .navbar {
-    background: rgba(189, 10, 10, 0.95);
+    background: var(--white);
     backdrop-filter: blur(10px);
-    color: var(--white);
+    color: var(--text-primary);
     padding: 16px 0;
     position: sticky;
     top: 0;
@@ -336,7 +336,7 @@ input:focus {
 }
 
 .logo-img {
-    height: 40px;
+    height: 60px;
     width: auto;
     transition: var(--transition);
 }
@@ -355,6 +355,7 @@ input:focus {
     font-size: 15px;
     position: relative;
     opacity: 0.9;
+    color: var(--primary-color);
 }
 
 .nav-links a:hover {
@@ -368,7 +369,7 @@ input:focus {
     height: 2px;
     bottom: -4px;
     left: 0;
-    background-color: var(--white);
+    background-color: var(--primary-color);
     transition: width var(--transition);
 }
 
